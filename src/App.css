@@ -1,0 +1,49 @@
+/* src/App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 2em;
+  /* Adjust the font size to make the heading larger */
+  margin-bottom: 20px;
+}
+
+.video-container {
+  position: relative;
+  max-width: 800px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.url-input-container {
+  margin-top: 20px;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 1.2em;
+  /* Adjust the font size to make the label larger */
+  color: #333;
+  /* Change label text color if needed */
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  /* Adjust the font size to make the input larger */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
